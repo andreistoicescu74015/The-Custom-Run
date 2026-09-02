@@ -3,8 +3,8 @@
   <CheatEntries>
     <CheatEntry>
       <ID>866</ID>
-      <Description>"The Custom Run (Tier 6)   --  tick to enable everything (forces Expert AI, scalar 0, no drafting)"</Description>
-      <Options moActivateChildrenAsWell="1" moHideChildren="1"/>
+      <Description>"The Custom Run (Tier 6)   --  tick to enable everything (forces Expert AI, scalar 0.25, no drafting)"</Description>
+      <Options moActivateChildrenAsWell="1" moHideChildren="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -112,7 +112,7 @@ getLuaEngine().cbShowOnPrint.Checked=false
 getLuaEngine().hide()
 [ENABLE]
 local carcodes = {[0]="ast_one_77_10",[1]="aud_r8_v10_10",[2]="bug_vey_ss_10",[3]="che_vet_cbn_10",[4]="hen_ven_gt_11",[5]="koe_age_r_11",[6]="lam_ave_700_12",[7]="lam_mur_sv_10",[8]="lam_ses_ele_11",[9]="maz_rx7_rz_98",[10]="mcl_f1_stk_94",[11]="mcl_mp4_12c_12",[12]="nis_gtr_stk_73",[13]="nis_240_zg_71",[14]="nis_gtr_v_10",[15]="nis_gtr_r32_91",[16]="pag_hua_stk_11",[17]="pag_zon_cin_10",[18]="por_918_rsr_11"}
-local skins = {["alf_8c_com_09"]={{28692514,"NFS Edition"}},["ast_one_77_10"]={{2723042599,"Rival 1"}},["ast_van_v12_10"]={{1416749643,"Rare 1"}},["aud_r8_v10_10"]={{1078212109,"Run"}},["bug_vey_ss_10"]={{1396925995,"Stock 1"},{233386615,"Stock 2"},{198885591,"Stock 3"},{2508479814,"Stock 4"},{38889236,"Stock 5"},{2998207530,"Stock 6"},{222257381,"Stock 7"},{3456734173,"Stock 8"}},["che_vet_cbn_10"]={{1289781367,"Rare 1"},{1732803059,"NFS Edition"}},["dod_cha_srt_08"]={{678390126,"Adsales 1"}},["she_mus_snk_12"]={{540039182,"Rare 1"}},["hen_ven_gt_11"]={{1889692556,"Stock 1"},{2875939421,"Stock 2"},{1843403582,"Stock 3"},{1559471646,"Stock 4"},{1293973268,"Stock 5"},{1435683144,"Stock 6"},{2573564796,"Stock 7"},{2334641747,"Stock 8"}},["koe_age_r_11"]={{938384918,"Stock 1"},{3882992039,"Stock 2"},{1371105745,"Stock 3"},{2626688083,"Stock 4"},{1231578851,"Stock 5"},{3884005823,"Stock 6"},{789750505,"Stock 7"},{4215073769,"Stock 8"}},["lam_ave_700_12"]={{2196261666,"Run"}},["lam_dia_sv_95"]={{2661219538,"NFS Edition"}},["lam_mur_sv_10"]={{2854099895,"Rare 1"}},["lam_ses_ele_11"]={{1021146513,"Rare 1"}},["mas_gt_str_12"]={{2233010987,"NFS Edition"}},["mas_mc_str_05"]={{877856617,"Stock 1"}},["maz_rx7_rz_98"]={{529645684,"NFS Edition"}},["mcl_f1_stk_94"]={{3082609147,"Stock 1"},{1842326981,"Stock 2"},{3597153073,"Stock 3"},{2027198581,"Stock 4"},{4061750909,"Stock 5"},{3284152259,"Stock 6"},{3971845986,"Stock 7"},{2188451802,"Stock 8"}},["mcl_mp4_12c_12"]={{3784919988,"NFS Edition"}},["mit_evo_x_08"]={{541096327,"Rare 1"}},["nis_240_zg_71"]={{4150176875,"Rare 1"}},["nis_gtr_stk_73"]={{1203603962,"Rare 1"}},["nis_gtr_v_10"]={{501327745,"Run"}},["nis_gtr_r32_91"]={{1279882972,"Rare 1"}},["pag_hua_stk_11"]={{671513072,"Run"},{2149624056,"Rare 1"}},["pag_zon_cin_10"]={{1785461374,"Rare 1"}},["pag_zon_r_09"]={{1606620635,"Stock 1"},{1129839707,"Stock 2"},{4142030595,"Stock 3"},{2209869415,"Stock 4"},{3410933518,"Stock 5"},{2013786111,"Stock 6"}},["por_993_gt2_96"]={{1591107591,"Adsales 1"}},["por_918_rsr_11"]={{2235038457,"Rare 1"},{893260034,"Run"}}}
+local skins = {["alf_8c_com_09"]={{28692514,"NFS Edition"}},["ast_one_77_10"]={{2723042599,"Rival 1"}},["ast_van_v12_10"]={{1416749643,"Rare 1"}},["aud_r8_v10_10"]={{1078212109,"Run"}},["bug_vey_ss_10"]={{1396925995,"Stock 1"},{233386615,"Stock 2"},{198885591,"Stock 3"},{2508479814,"Stock 4"},{38889236,"Stock 5"},{2998207530,"Stock 6"},{222257381,"Stock 7"},{3456734173,"Stock 8"},{397414533,"Style Pack 1 - 1"},{13600042,"Style Pack 1 - 2"},{1173801304,"Style Pack 1 - 3"},{2683073109,"Style Pack 1 - 4"},{3414920866,"Style Pack 1 - 5"},{4061025962,"Style Pack 1 - 6"},{4269471868,"Style Pack 1 - 7"},{1201919218,"Style Pack 1 - 8"}},["che_vet_cbn_10"]={{1289781367,"Rare 1"},{1732803059,"NFS Edition"}},["dod_cha_srt_08"]={{678390126,"Adsales 1"}},["she_mus_snk_12"]={{540039182,"Rare 1"}},["hen_ven_gt_11"]={{1889692556,"Stock 1"},{2875939421,"Stock 2"},{1843403582,"Stock 3"},{1559471646,"Stock 4"},{1293973268,"Stock 5"},{1435683144,"Stock 6"},{2573564796,"Stock 7"},{2334641747,"Stock 8"},{1532349533,"Style Pack 1 - 1"},{1612734426,"Style Pack 1 - 2"},{1350165957,"Style Pack 1 - 3"},{3838522613,"Style Pack 1 - 4"},{3126269201,"Style Pack 1 - 5"},{2902535361,"Style Pack 1 - 6"},{42442522,"Style Pack 1 - 7"},{284782573,"Style Pack 1 - 8"}},["koe_age_r_11"]={{938384918,"Stock 1"},{3882992039,"Stock 2"},{1371105745,"Stock 3"},{2626688083,"Stock 4"},{1231578851,"Stock 5"},{3884005823,"Stock 6"},{789750505,"Stock 7"},{4215073769,"Stock 8"},{450562262,"Style Pack 1 - 1"},{3174728285,"Style Pack 1 - 2"},{3125779387,"Style Pack 1 - 3"},{3260662067,"Style Pack 1 - 4"},{132303528,"Style Pack 1 - 5"},{3392822886,"Style Pack 1 - 6"},{4175699004,"Style Pack 1 - 7"},{1147481775,"Style Pack 1 - 8"}},["lam_ave_700_12"]={{2196261666,"Run"}},["lam_dia_sv_95"]={{2661219538,"NFS Edition"}},["lam_mur_sv_10"]={{2854099895,"Rare 1"}},["lam_ses_ele_11"]={{1021146513,"Rare 1"}},["mas_gt_str_12"]={{2233010987,"NFS Edition"}},["mas_mc_str_05"]={{877856617,"Stock 1"}},["maz_rx7_rz_98"]={{529645684,"NFS Edition"}},["mcl_f1_stk_94"]={{3082609147,"Stock 1"},{1842326981,"Stock 2"},{3597153073,"Stock 3"},{2027198581,"Stock 4"},{4061750909,"Stock 5"},{3284152259,"Stock 6"},{3971845986,"Stock 7"},{2188451802,"Stock 8"},{2188732611,"Style Pack 1 - 1"},{8847892,"Style Pack 1 - 2"},{2546659436,"Style Pack 1 - 3"},{4201908254,"Style Pack 1 - 4"},{3309128826,"Style Pack 1 - 5"},{3763200407,"Style Pack 1 - 6"},{734242523,"Style Pack 1 - 7"},{4147231431,"Style Pack 1 - 8"},{3451952857,"Aero Pack - 1"},{2727696005,"Aero Pack - 2"},{2569286113,"Aero Pack - 3"},{179413785,"Aero Pack - 4"},{2797745784,"Aero Pack - 5"},{4269482447,"Aero Pack - 6"},{1346627002,"Aero Pack - 7"},{3904972435,"Aero Pack - 8"}},["mcl_mp4_12c_12"]={{3784919988,"NFS Edition"}},["mit_evo_x_08"]={{541096327,"Rare 1"}},["nis_240_zg_71"]={{4150176875,"Rare 1"}},["nis_gtr_stk_73"]={{1203603962,"Rare 1"}},["nis_gtr_v_10"]={{501327745,"Run"}},["nis_gtr_r32_91"]={{1279882972,"Rare 1"}},["pag_hua_stk_11"]={{671513072,"Run"},{2149624056,"Rare 1"}},["pag_zon_cin_10"]={{1785461374,"Rare 1"}},["pag_zon_r_09"]={{1606620635,"Stock 1"},{1129839707,"Stock 2"},{4142030595,"Stock 3"},{2209869415,"Stock 4"},{3410933518,"Stock 5"},{2013786111,"Stock 6"}},["por_993_gt2_96"]={{1591107591,"Adsales 1"}},["por_918_rsr_11"]={{2235038457,"Rare 1"},{893260034,"Run"}}}
 local outs = {{"junkyard_car",0},{"sf_cars",0},{"sf_cars",4},{"sf_cars",8},{"sf_cars",12},{"sf_cars",16},{"lv_cars",0},{"lv_cars",4},{"lv_cars",8},{"chi_cars",0},{"chi_cars",4},{"chi_cars",8},{"uri_cars",0},{"uri_cars",4},{"uri_cars",8}}
 local skinIDs = {94111,94211,94221,94231,94241,94251,94311,94321,94331,94411,94421,94431,94511,94521,94531}
 local lastModel = {}
@@ -170,8 +170,8 @@ if garageVarTimer ~= nil then timer_setEnabled(garageVarTimer,false); garageVarT
         </CheatEntry>
         <CheatEntry>
           <ID>1106</ID>
-          <Description>"Story Mode Event Hook"</Description>
-          <Options moHideChildren="1"/>
+          <Description>"Story Mode Event Hook  (auto)"</Description>
+          <Options moHideChildren="1" />
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 alloc(newmem,$30)
@@ -222,7 +222,7 @@ mov edx,[edi]
         </CheatEntry>
         <CheatEntry>
           <ID>1418</ID>
-          <Description>"Race time loader"</Description>
+          <Description>"Race time loader  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 aobscanmodule(event_check,Need For Speed The Run.exe,BC 00 00 00 74 35 8B 54 24 08 56 8B 74 24 08 39 30 75 1C F3 0F 7E 00 66 0F D6 02)
@@ -250,9 +250,9 @@ registersymbol(t_e6)
 
 // start + checkpoint seconds
 t_e1:
-  dd (float)28
+  dd (float)27
   dd (float)21
-  dd (float)32
+  dd (float)33
   dd (float)21
   dd (float)21
   dd (float)0
@@ -285,11 +285,11 @@ t_e5:
   dd (float)30
   dd (float)0
 t_e6:
-  dd (float)35
-  dd (float)20
+  dd (float)33
+  dd (float)22
   dd (float)18
   dd (float)18
-  dd (float)25
+  dd (float)26
   dd (float)0
 
 alloc(event_1,$800)
@@ -452,7 +452,7 @@ unregistersymbol(event_check)
         </CheatEntry>
         <CheatEntry>
           <ID>1426</ID>
-          <Description>"Race time writer"</Description>
+          <Description>"Race time writer  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 aobscanmodule(time_crack,Need For Speed The Run.exe,F3 0F 10 44 24 40 55)
@@ -489,7 +489,7 @@ unregistersymbol(time_crack)
         </CheatEntry>
         <CheatEntry>
           <ID>1380</ID>
-          <Description>"Car swap (gas stations)"</Description>
+          <Description>"Car swap (gas stations)  (auto)"</Description>
           <Options moActivateChildrenAsWell="1"/>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -659,29 +659,43 @@ registersymbol(gas_mode)
 end
 local master = {0xA24E5527,0x4044360D,0x5343662B,0x4CE08077,0x674879F3,0x70A26B8C,0x37EE9E16,0x82E84B22,0xAA1E1BB7,0x3CDD7591,0x1F91C074,0xB7BCE1FB,0xE1994BB4,0xF75EAC6B,0x4C4976DC,0x47BD89FA,0x1DE1A781,0x280679F0,0x8020A8F8,0x6A6BFA7E,0x8537FAF9,0x353E1102}
 local garages = {{"junkyard_car",1},{"sf_cars",5},{"lv_cars",3},{"chi_cars",3},{"uri_cars",3}}
-local stockGroups = {
-  {1396925995,233386615,198885591,2508479814,38889236,2998207530,222257381,3456734173},
-  {1889692556,2875939421,1843403582,1559471646,1293973268,1435683144,2573564796,2334641747},
-  {938384918,3882992039,1371105745,2626688083,1231578851,3884005823,789750505,4215073769},
-  {3082609147,1842326981,3597153073,2027198581,4061750909,3284152259,3971845986,2188451802}
+-- Every skin and body kit of the four cars that have kits, one row per car. Two
+-- things need this. Recognising the car you are driving as belonging to a garage
+-- slot, which fails otherwise when you leave the garage on a kit, because the
+-- current car reads back as the kit hash and the slot still holds the skin you
+-- picked. And mapping any of them to the car's base model below.
+local variantGroups = {
+  {1396925995,233386615,198885591,2508479814,38889236,2998207530,222257381,3456734173,397414533,13600042,1173801304,2683073109,3414920866,4061025962,4269471868,1201919218},
+  {1889692556,2875939421,1843403582,1559471646,1293973268,1435683144,2573564796,2334641747,1532349533,1612734426,1350165957,3838522613,3126269201,2902535361,42442522,284782573},
+  {938384918,3882992039,1371105745,2626688083,1231578851,3884005823,789750505,4215073769,450562262,3174728285,3125779387,3260662067,132303528,3392822886,4175699004,1147481775},
+  {3082609147,1842326981,3597153073,2027198581,4061750909,3284152259,3971845986,2188451802,2188732611,8847892,2546659436,4201908254,3309128826,3763200407,734242523,4147231431,3451952857,2727696005,2569286113,179413785,2797745784,4269482447,1346627002,3904972435}
 }
-local function stockGroupOf(h)
-  for _,G in ipairs(stockGroups) do
-    for _,x in ipairs(G) do if x == h then return G end end
+-- Do not put a car's base model row in here. Handing the gas station
+-- bug_vey_ss_10 rather than one of its variants crashes the game. Only the
+-- variants are loadable as cars.
+local function groupOf(h)
+  for i,G in ipairs(variantGroups) do
+    for _,x in ipairs(G) do if x == h then return i end end
   end
   return nil
 end
 local function sameCar(a,b)
   if a == b then return true end
-  local g = stockGroupOf(a)
-  if g ~= nil then for _,x in ipairs(g) do if x == b then return true end end end
+  local i = groupOf(a)
+  if i ~= nil then for _,x in ipairs(variantGroups[i]) do if x == b then return true end end end
   return false
 end
+-- Any variant maps to the first skin of its group. Dropping this so the gas
+-- station offered the slot's exact hash broke colour selection on the Venom and
+-- the Agera, so it stays. The cost is the one noted yesterday: a kit in a garage
+-- slot is offered at the gas station as that car's Stock 1, kit included in the
+-- car but not in the offer.
 local function baseOf(h)
-  local g = stockGroupOf(h)
-  if g ~= nil then return g[1] end
+  local i = groupOf(h)
+  if i ~= nil then return variantGroups[i][1] end
   return h
 end
+
 local function currentGarageSet()
   local cur = nil
   pcall(function()
@@ -745,7 +759,7 @@ end</AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>1300</ID>
-          <Description>"AI Tier 6 performance + livery"</Description>
+          <Description>"AI Tier 6 performance + livery  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
 getLuaEngine().cbShowOnPrint.Checked=false
@@ -804,6 +818,19 @@ memscan_returnOnlyOneResult(MyMemscan, true)
 memscan_firstScan(MyMemscan,soExactValue,vtByteArray,0,AOB,"",addressStart,addressEnd,"*X*W*C",0,"",true,true,false,false)
 memscan_waitTillDone(MyMemscan)
 local address = memscan_getOnlyResult(MyMemscan) --Returns the address in integer format
+
+-- Baseline. Before writing anything, record the performance hash the game shipped
+-- for every row of the template list, keyed by address. The override engine reads
+-- this table when an entry is set to Default, so Default restores what the game
+-- had rather than what this script wrote. Captured once per session: a second
+-- enable must not overwrite the baseline with our own values.
+if address ~= nil then
+    if TCR_orig == nil then TCR_orig = {} end
+    for k = 0, 2268 do
+        local a = address + k * 0x80 + 0x60
+        if TCR_orig[a] == nil then TCR_orig[a] = readInteger(a) end
+    end
+end
 
 if address ~= nil then
     local performance = address + 0x60
@@ -944,8 +971,26 @@ if address ~= nil then
     local PRF_ID = hexByteString(performance)
     PRF_ID = "4B 46 F7 DD"
     writeInteger(performance,AOBtoDEC(PRF_ID))
+
+    --che_el_cam_70_ai_106
+    address = address + 0x80
+    performance = address + 0x60
+    writeInteger(performance,AOBtoDEC(PRF_ID))
+
+    -- ai_180, ai_181 and ai_182 are Cesar and his two bodyguards. They share a
+    -- performance record the other El Caminos do not, the same one the three
+    -- pp_rival rows carry, so they take the rival donor and not the muscle one.
     n = 1
-    while n &lt; 8 do
+    while n &lt; 4 do
+         address = address + 0x80
+         performance = address + 0x60
+         writeInteger(performance,AOBtoDEC("B9 D5 89 4C"))
+         n = n + 1
+    end
+
+    --che_el_cam_70_ai_266, _271, _272
+    n = 1
+    while n &lt; 4 do
          address = address + 0x80
          performance = address + 0x60
          writeInteger(performance,AOBtoDEC(PRF_ID))
@@ -998,7 +1043,7 @@ if address ~= nil then
     address = address + 0x1180
     local performance = address + 0x60
     local PRF_ID = hexByteString(performance)
-    PRF_ID = "4B 46 F7 DD"
+    PRF_ID = "B9 D5 89 4C"
     writeInteger(performance,AOBtoDEC(PRF_ID))
     n = 1
     while n &lt; 6 do
@@ -1012,7 +1057,7 @@ if address ~= nil then
     address = address + 0xD80
     local performance = address + 0x60
     local PRF_ID = hexByteString(performance)
-    PRF_ID = "DB AD E4 33"
+    PRF_ID = "A9 5F 58 1A"
     writeInteger(performance,AOBtoDEC(PRF_ID))
     n = 1
     while n &lt; 5 do
@@ -1026,7 +1071,7 @@ if address ~= nil then
     address = address + 0x1300
     local performance = address + 0x60
     local PRF_ID = hexByteString(performance)
-    PRF_ID = "7A 5A E0 DB"
+    PRF_ID = "88 D5 B8 9A"
     writeInteger(performance,AOBtoDEC(PRF_ID))
     n = 1
     while n &lt; 5 do
@@ -1057,12 +1102,17 @@ if address ~= nil then
     PRF_ID = "4B 46 F7 DD"
     writeInteger(performance,AOBtoDEC(PRF_ID))
     n = 1
-    while n &lt; 5 do
+    while n &lt; 4 do
          address = address + 0x80
          performance = address + 0x60
          writeInteger(performance,AOBtoDEC(PRF_ID))
          n = n + 1
     end
+
+    --for_mus_bos_12_pp_rare_1  (Eddie Cooke)
+    address = address + 0x80
+    performance = address + 0x60
+    writeInteger(performance,AOBtoDEC("B9 D5 89 4C"))
 
     --1133916393 --for_mus_rtr_12_ai_097
     address = address + 0x1180
@@ -1227,7 +1277,7 @@ if address ~= nil then
     address = address + 0xF00
     local performance = address + 0x60
     local PRF_ID = hexByteString(performance)
-    PRF_ID = "A0 33 70 A4"
+    PRF_ID = "88 DB C6 6B"
     writeInteger(performance,AOBtoDEC(PRF_ID))
     n = 1
     while n &lt; 3 do
@@ -1241,7 +1291,7 @@ if address ~= nil then
     address = address + 0x180
     local performance = address + 0x60
     local PRF_ID = hexByteString(performance)
-    PRF_ID = "A0 33 70 A4"
+    PRF_ID = "88 DB C6 6B"
     writeInteger(performance,AOBtoDEC(PRF_ID))
 
     --3951888656 --mit_evo_x_08_ai_014
@@ -1291,7 +1341,7 @@ if address ~= nil then
     address = address + 0xE80
     local performance = address + 0x60
     local PRF_ID = hexByteString(performance)
-    PRF_ID = "DB AD E4 33"
+    PRF_ID = "A9 5F 58 1A"
     writeInteger(performance,AOBtoDEC(PRF_ID))
     n = 1
     while n &lt; 6 do
@@ -1301,15 +1351,18 @@ if address ~= nil then
          n = n + 1
     end
 
-    --4225104048 --nis_370_z_09_pp_rival_1
+    -- The two rival rows are the other way round from what the names suggest.
+    -- Driven in the race where both appear: pp_rival_1 turned out to be Mila and
+    -- pp_rival_2 Nikki. PRF_ID here is still the GT-R SpecV, Mila's donor.
+    --4225104048 --nis_370_z_09_pp_rival_1  (Mila Belova)
     address = address + 0x100
     performance = address + 0x60
     writeInteger(performance,AOBtoDEC(PRF_ID))
 
-    --2151677351 --nis_370_z_09_pp_rival_2
+    --2151677351 --nis_370_z_09_pp_rival_2  (Nikki Blake)
     address = address + 0x80
     performance = address + 0x60
-    writeInteger(performance,AOBtoDEC(PRF_ID))
+    writeInteger(performance,AOBtoDEC("DB AD E4 33"))
 
     --2383789778 --nis_gtr_r32_91_ai_030
     address = address + 0x1180
@@ -1488,7 +1541,7 @@ if address ~= nil then
     address = address + 0x1200
     local performance = address + 0x60
     local PRF_ID = hexByteString(performance)
-    PRF_ID = "7A 5A E0 DB"
+    PRF_ID = "4B 46 F7 DD"
     writeInteger(performance,AOBtoDEC(PRF_ID))
     n = 1
     while n &lt; 4 do
@@ -1516,7 +1569,7 @@ if address ~= nil then
     address = address + 0x1200
     local performance = address + 0x60
     local PRF_ID = hexByteString(performance)
-    PRF_ID = "DB AD E4 33"
+    PRF_ID = "A9 5F 58 1A"
     writeInteger(performance,AOBtoDEC(PRF_ID))
     n = 1
     while n &lt; 10 do
@@ -1544,7 +1597,7 @@ if address ~= nil then
     address = address + 0xE80
     local performance = address + 0x60
     local PRF_ID = hexByteString(performance)
-    PRF_ID = "DB AD E4 33"
+    PRF_ID = "74 C0 91 1F"
     writeInteger(performance,AOBtoDEC(PRF_ID))
     n = 1
     while n &lt; 7 do
@@ -1591,11 +1644,9 @@ memscan_firstScan(f1scan,soExactValue,vtByteArray,0,f1AOB,"",addressStart,addres
 memscan_waitTillDone(f1scan)
 local f1addr = memscan_getOnlyResult(f1scan)
 if f1addr ~= nil then
-    local n = 0
-    while n &lt; 4 do
-        writeInteger(f1addr + n*0x80 + 0x60, AOBtoDEC("7A 5A E0 DB"))
-        n = n + 1
-    end
+    -- ai_259 is the only AI McLaren F1 template. The next three rows are the
+    -- player's Stock 1-3 skins, so write exactly one record.
+    writeInteger(f1addr + 0x60, AOBtoDEC("7A 5A E0 DB"))
 end
 
 [DISABLE]
@@ -1613,56 +1664,96 @@ getLuaEngine().hide()
 if aiPerfTimer ~= nil then timer_setEnabled(aiPerfTimer,false); aiPerfTimer=nil end
 -- {anchor hash of the car's first AI instance, AI slot count, default donor hash, default donor index}
 local carTbl = {
-  {"BF 4C AC 14",4,"A7 67 99 8A",12}, -- Audi Quattro 20V -> Audi R8 V10
-  {"98 D4 B6 D6",7,"DB AD E4 33",14}, -- BMW 1M Coupe -> Skyline GT-R (R32)
-  {"3D D4 55 EC",5,"DB AD E4 33",14}, -- BMW M3 Sport Evolution -> Skyline GT-R (R32)
-  {"46 12 4E DC",5,"B4 4B 99 E1",11}, -- BMW M3 GTS (E92) -> McLaren MP4-12C
-  {"ED DC C5 72",6,"4B 46 F7 DD",18}, -- Camaro SS (1967) -> Corvette Z06 (NFS)
-  {"48 3B 44 54",9,"4B 46 F7 DD",18}, -- Camaro ZL1 -> Corvette Z06 (NFS)
-  {"20 E5 62 7A",8,"4B 46 F7 DD",18}, -- El Camino SS -> Corvette Z06 (NFS)
-  {"39 55 6D 3C",6,"4B 46 F7 DD",18}, -- Challenger R/T -> Corvette Z06 (NFS)
-  {"B0 0F 55 CA",5,"DB AD E4 33",14}, -- Focus RS -> Skyline GT-R (R32)
-  {"4A 82 88 AD",5,"7A 5A E0 DB",10}, -- Ford GT -> McLaren F1
-  {"95 9B B3 01",4,"4B 46 F7 DD",18}, -- Mustang Boss 302 (1969) -> Corvette Z06 (NFS)
-  {"70 E1 83 B5",5,"4B 46 F7 DD",18}, -- Mustang Boss 302 -> Corvette Z06 (NFS)
-  {"E9 30 96 43",5,"4B 46 F7 DD",18}, -- Mustang RTR -> Corvette Z06 (NFS)
-  {"7F 1C FF 21",1,"4B 46 F7 DD",18}, -- Mustang RTR-X (1969) -> Corvette Z06 (NFS)
-  {"F0 78 E0 EB",7,"6F BF 82 18",6}, -- Gallardo Valentino Balboni -> Murcielago SV
-  {"56 5F EC 9B",5,"89 3F 57 91",5}, -- Miura SV -> Aventador
-  {"1C 71 F1 1C",7,"B4 4B 99 E1",11}, -- Lotus Evora -> McLaren MP4-12C
-  {"C7 5F 49 BE",7,"B9 D5 89 4C",2}, -- Exige Cup 260 -> Hennessey Venom GT
-  {"D1 4F B0 CC",7,"74 C0 91 1F",17}, -- Mazda MX-5 -> Mazda RX-7 RZ
-  {"CD 75 CB 8A",3,"A0 33 70 A4",8}, -- SLS AMG -> Zonda Cinque
-  {"53 B5 49 3D",6,"DB AD E4 33",14}, -- Nissan 370Z -> Skyline GT-R (R32)
-  {"CD CB C5 A7",7,"8E B4 6A 63",15}, -- 200SX (S14) -> Skyline 2000GT-R
-  {"5E FD 52 DD",6,"4B 46 F7 DD",18}, -- Firebird Formula -> Corvette Z06 (NFS)
-  {"45 72 F2 02",3,"88 27 04 36",9}, -- 911 Carrera S (991) -> Porsche 918 RSR
-  {"C9 B5 D5 A7",4,"88 27 04 36",9}, -- 911 GT3 RS 4.0 (997) -> Porsche 918 RSR
-  {"30 07 28 9F",7,"DB AD E4 33",14}, -- Megane RS -> Skyline GT-R (R32)
-  {"9A 8F 1A C8",4,"7A 5A E0 DB",10}, -- Cobra Daytona -> McLaren F1
-  {"36 8A F9 CA",10,"DB AD E4 33",14}, -- Impreza WRX STI -> Skyline GT-R (R32)
-  {"C6 8B 82 AE",6,"F0 96 0C EE",16}, -- Corolla GTS (AE86) -> Fairlady 240ZG
-  {"C6 C5 F0 5B",7,"DB AD E4 33",14}, -- Toyota Supra -> Skyline GT-R (R32)
-  {"0D 4E BA 6D",7,"F0 96 0C EE",16}, -- Golf GTI (Mk1) -> Fairlady 240ZG
-  {"2D 23 71 3C",4,"DB AD E4 33",14}, -- Scirocco R -> Skyline GT-R (R32)
-  {"9C 4E FD AF",3,"2E F3 2B 56",20}, -- V12 Vantage -> One-77 (Marcus)
-  {"34 D4 8E 1A",6,"B9 D5 89 4C",2}, -- Challenger SRT8 -> Hennessey Venom GT
-  {"10 09 8D EB",6,"A9 5F 58 1A",13}, -- Lancer Evolution X -> Nissan GT-R SpecV
-  {"E2 A1 B0 4C",4,"88 27 04 36",9}, -- 911 GT2 (993) -> Porsche 918 RSR
-  {"69 17 CF A8",3,"B9 D5 89 4C",2} -- GT500 Super Snake -> Hennessey Venom GT
+  -- Nikki is pp_rival_2 and Mila is pp_rival_1, not the other way round. Measured
+  -- in the race where both appear. Those two rows only drive that race; in Mila's
+  -- own race her car comes off the Nissan 370Z (Z34) opponent rows further down.
+  {"A7 FD 3F 80",1,"DB AD E4 33",14}, -- Nikki Blake  -  Nissan 370Z
+  {"B0 F8 D5 FB",1,"A9 5F 58 1A",13}, -- Mila Belova  -  Nissan 370Z
+  -- Calvin is driven by the three ai_ rows, not by mer_sls_amg_10_rival.
+  -- That row is the only one in the library named _rival rather than
+  -- _pp_rival_N, and changing it has no effect on him. Measured in game.
+  {"CD 75 CB 8A",3,"88 DB C6 6B",7}, -- Calvin Garret  -  Mercedes SLS AMG
+  -- Cesar is che_el_cam_70_ai_180 to _182, not the pp_rival rows. Measured in
+  -- game, and the three share a performance record the other El Caminos do not.
+  {"1A 3C C6 B7",3,"B9 D5 89 4C",2}, -- Cesar DeLeon + 2 bodyguards  -  El Camino SS
+  {"44 9B 34 FB",1,"B9 D5 89 4C",2}, -- Eddie Cooke  -  Ford Mustang Boss 302
+  {"9C 4E FD AF",3,"2E F3 2B 56",19}, -- Aston Martin V12 Vantage
+  {"BF 7C C9 CB",4,"A7 67 99 8A",12}, -- Audi Quattro 20V
+  {"98 D4 B6 D6",7,"DB AD E4 33",14}, -- BMW 1 Series M Coupe
+  {"46 12 4E DC",5,"B4 4B 99 E1",11}, -- BMW M3 GTS (E92)
+  {"3D D4 55 EC",5,"DB AD E4 33",14}, -- BMW M3 Sport Evolution
+  {"ED DC C5 72",6,"4B 46 F7 DD",18}, -- Chevrolet Camaro SS (1967)
+  {"48 3B 44 54",9,"4B 46 F7 DD",18}, -- Chevrolet Camaro ZL1
+  {"20 E5 62 7A",2,"4B 46 F7 DD",18}, -- Chevrolet El Camino SS
+  {"3F A6 4B CA",3,"4B 46 F7 DD",18}, -- Chevrolet El Camino SS  -  later opponents
+  {"9C B4 8C 1D",3,"B9 D5 89 4C",2}, -- Chevrolet El Camino SS  -  spare rival records
+  {"39 55 6D 3C",6,"B9 D5 89 4C",2}, -- Dodge Challenger R/T
+  {"34 D4 8E 1A",6,"B9 D5 89 4C",2}, -- Dodge Challenger SRT8
+  {"B0 0F 55 CA",5,"A9 5F 58 1A",13}, -- Ford Focus RS
+  {"4A 82 88 AD",5,"88 D5 B8 9A",3}, -- Ford GT
+  {"70 E1 83 B5",4,"4B 46 F7 DD",18}, -- Ford Mustang Boss 302
+  {"95 9B B3 01",4,"4B 46 F7 DD",18}, -- Ford Mustang Boss 302 (1969)
+  {"E9 30 96 43",5,"4B 46 F7 DD",18}, -- Ford Mustang RTR
+  {"7F 1C FF 21",1,"4B 46 F7 DD",18}, -- Ford Mustang RTR-X
+  {"F0 78 E0 EB",7,"6F BF 82 18",6}, -- Lamborghini Gallardo LP 550-2 Valentino Balboni
+  {"56 5F EC 9B",5,"89 3F 57 91",5}, -- Lamborghini Miura SV
+  {"1C 71 F1 1C",7,"B4 4B 99 E1",11}, -- Lotus Evora
+  {"C7 5F 49 BE",7,"B9 D5 89 4C",2}, -- Lotus Exige Cup 260
+  {"D1 4F B0 CC",7,"74 C0 91 1F",17}, -- Mazda MX-5
+  {"23 8F B9 C8",1,"88 DB C6 6B",7}, -- Mercedes-Benz SLS AMG  -  spare rival record
+  {"10 09 8D EB",6,"A9 5F 58 1A",13}, -- Mitsubishi Lancer Evolution X
+  {"CD CB C5 A7",7,"8E B4 6A 63",15}, -- Nissan 200SX (S14)
+  {"53 B5 49 3D",6,"A9 5F 58 1A",13}, -- Nissan 370Z (Z34)
+  {"5E FD 52 DD",6,"4B 46 F7 DD",18}, -- Pontiac Firebird Formula
+  {"45 72 F2 02",3,"88 27 04 36",9}, -- Porsche 911 Carrera S (991)
+  {"E2 A1 B0 4C",4,"88 27 04 36",9}, -- Porsche 911 GT2 (993)
+  {"C9 B5 D5 A7",4,"88 27 04 36",9}, -- Porsche 911 GT3 RS 4.0 (997)
+  {"30 07 28 9F",7,"DB AD E4 33",14}, -- Renault Sport Megane RS
+  {"9A 8F 1A C8",4,"4B 46 F7 DD",18}, -- Shelby Cobra Daytona Coupe
+  {"69 17 CF A8",3,"B9 D5 89 4C",2}, -- Shelby GT500 Super Snake
+  {"36 8A F9 CA",10,"A9 5F 58 1A",13}, -- Subaru Impreza WRX STI
+  {"C6 8B 82 AE",6,"F0 96 0C EE",16}, -- Toyota Corolla GTS (AE86)
+  {"C6 C5 F0 5B",7,"74 C0 91 1F",17}, -- Toyota Supra
+  {"0D 4E BA 6D",7,"F0 96 0C EE",16}, -- Volkswagen Golf GTI (Mk1)
+  {"2D 23 71 3C",4,"DB AD E4 33",14}, -- Volkswagen Scirocco R
+  {"99 B8 E9 6D",3,"2E F3 2B 56",19}, -- Aston Martin One-77  (auto Tier 6, Marcus included)
+  {"97 69 3F AF",7,"A7 67 99 8A",12}, -- Audi R8 V10  (auto Tier 6)
+  {"37 3F 8B 85",7,"4B 46 F7 DD",18}, -- Chevrolet Corvette Z06 Carbon LE  (auto Tier 6)
+  {"54 17 FD 7D",1,"89 3F 57 91",5}, -- Lamborghini Aventador  (auto Tier 6)
+  {"A4 B3 D7 B7",2,"6F BF 82 18",6}, -- Lamborghini Murcielago SV  (auto Tier 6)
+  {"4C 4B D3 23",1,"16 FA DF 4B",4}, -- Lamborghini Sesto Elemento  (auto Tier 6)
+  {"E4 F4 A9 DB",5,"74 C0 91 1F",17}, -- Mazda RX-7 RZ  (auto Tier 6)
+  {"22 1D BD 8E",1,"7A 5A E0 DB",10}, -- McLaren F1  (auto Tier 6)
+  {"54 F5 2D 7D",6,"B4 4B 99 E1",11}, -- McLaren MP4-12C  (auto Tier 6)
+  {"DB 61 70 77",5,"F0 96 0C EE",16}, -- Nissan Fairlady 240ZG  (auto Tier 6)
+  {"B1 7E 49 AE",10,"A9 5F 58 1A",13}, -- Nissan GT-R SpecV  (auto Tier 6)
+  {"D7 85 D7 92",4,"8E B4 6A 63",15}, -- Nissan Skyline 2000GT-R  (auto Tier 6)
+  {"D2 BE 15 8E",7,"DB AD E4 33",14}, -- Nissan Skyline GT-R (R32)  (auto Tier 6)
+  {"64 71 3D 10",1,"88 DB C6 6B",7}, -- Pagani Huayra  (auto Tier 6)
+  {"F2 6F 25 BC",4,"A0 33 70 A4",8}, -- Pagani Zonda Cinque  (auto Tier 6)
+  {"10 3D 30 75",2,"88 27 04 36",9}, -- Porsche 918 RSR  (auto Tier 6)
+  {"F8 1E 05 81",4,"",0}, -- Ford Police Interceptor  (4 pursuit records)
+  {"9D 90 B5 DF",1,"",0}, -- Ford Police Interceptor  -  out of state
+  {"37 40 29 A5",1,"",0}, -- Dodge Charger SRT-8 Police
+  {"D8 FF BC 87",1,"",0}, -- Lamborghini Gallardo Police
+  {"81 7F E6 92",1,"",0}, -- Nissan GT-R R35 Police
+  {"2C A2 3B C0",1,"",0}, -- Porsche Cayenne Turbo Police
+  {"8E 8E DB 0E",1,"",0}, -- Porsche Cayenne Police  -  traffic
+  {"86 D5 13 2A",1,"",0}, -- Porsche Cayenne Turbo  -  the mob
+  {"12 36 73 EE",1,"",0} -- GMC Savana Cargo Van  -  the mob
 }
-local donor = {"BD 91 44 C5","B9 D5 89 4C","88 D5 B8 9A","16 FA DF 4B","89 3F 57 91","6F BF 82 18","88 DB C6 6B","A0 33 70 A4","88 27 04 36","7A 5A E0 DB","B4 4B 99 E1","A7 67 99 8A","A9 5F 58 1A","DB AD E4 33","8E B4 6A 63","F0 96 0C EE","74 C0 91 1F","4B 46 F7 DD","9A 98 BE 63","2E F3 2B 56"}
-local carNames = {"Audi Quattro 20V","BMW 1 Series M Coupe","BMW M3 Sport Evolution","BMW M3 GTS (E92)","Chevrolet Camaro SS (1967)","Chevrolet Camaro ZL1","Chevrolet El Camino SS","Dodge Challenger R/T","Ford Focus RS","Ford GT","Ford Mustang Boss 302 (1969)","Ford Mustang Boss 302","Ford Mustang RTR","Ford Mustang RTR-X (1969) (Signature)","Lamborghini Gallardo LP 550-2 Valentino Balboni","Lamborghini Miura SV","Lotus Evora","Lotus Exige Cup 260","Mazda MX-5","Mercedes-Benz SLS AMG","Nissan 370Z (Z34)","Nissan 200SX (S14)","Pontiac Firebird Formula","Porsche 911 Carrera S (991)","Porsche 911 GT3 RS 4.0 (997)","Renault Sport Megane RS","Shelby Cobra Daytona Coupe","Subaru Impreza WRX STi (Hatchback)","Toyota Corolla GTS (AE86)","Toyota Supra","Volkswagen Golf GTI (Mk1)","Volkswagen Scirocco R","Aston Martin V12 Vantage","Dodge Challenger SRT8","Mitsubishi Lancer Evolution X","Porsche 911 GT2 (993)","Shelby GT500 Super Snake"}
-local donorNames = {"Bugatti Veyron 16.4 Super Sport","Hennessey Venom GT","Koenigsegg Agera R","Lamborghini Sesto Elemento","Lamborghini Aventador LP 700-4","Lamborghini Murcielago LP 670-4 SV","Pagani Huayra","Pagani Zonda Cinque","Porsche 918 RSR","McLaren F1","McLaren MP4-12C","Audi R8 V10","Nissan GT-R SpecV","Nissan Skyline GT-R (R32)","Nissan Skyline 2000GT-R","Nissan Fairlady 240ZG","Mazda RX-7 RZ","Chevrolet Corvette Z06 Carbon LE (NFS)","Chevrolet Corvette Z06 Carbon LE (Signature)","Aston Martin One-77"}
+local donor = {"BD 91 44 C5","B9 D5 89 4C","88 D5 B8 9A","16 FA DF 4B","89 3F 57 91","6F BF 82 18","88 DB C6 6B","A0 33 70 A4","88 27 04 36","7A 5A E0 DB","B4 4B 99 E1","A7 67 99 8A","A9 5F 58 1A","DB AD E4 33","8E B4 6A 63","F0 96 0C EE","74 C0 91 1F","4B 46 F7 DD","2E F3 2B 56"}
+local carNames = {"Nikki Blake  -  Nissan 370Z","Mila Belova  -  Nissan 370Z","Calvin Garret  -  Mercedes SLS AMG","Cesar DeLeon + 2 bodyguards  -  El Camino SS","Eddie Cooke  -  Ford Mustang Boss 302","Aston Martin V12 Vantage","Audi Quattro 20V","BMW 1 Series M Coupe","BMW M3 GTS (E92)","BMW M3 Sport Evolution","Chevrolet Camaro SS (1967)","Chevrolet Camaro ZL1","Chevrolet El Camino SS","Chevrolet El Camino SS  -  later opponents","Chevrolet El Camino SS  -  spare rival records","Dodge Challenger R/T","Dodge Challenger SRT8","Ford Focus RS","Ford GT","Ford Mustang Boss 302","Ford Mustang Boss 302 (1969)","Ford Mustang RTR","Ford Mustang RTR-X","Lamborghini Gallardo LP 550-2 Valentino Balboni","Lamborghini Miura SV","Lotus Evora","Lotus Exige Cup 260","Mazda MX-5","Mercedes-Benz SLS AMG  -  spare rival record","Mitsubishi Lancer Evolution X","Nissan 200SX (S14)","Nissan 370Z (Z34)","Pontiac Firebird Formula","Porsche 911 Carrera S (991)","Porsche 911 GT2 (993)","Porsche 911 GT3 RS 4.0 (997)","Renault Sport Megane RS","Shelby Cobra Daytona Coupe","Shelby GT500 Super Snake","Subaru Impreza WRX STI","Toyota Corolla GTS (AE86)","Toyota Supra","Volkswagen Golf GTI (Mk1)","Volkswagen Scirocco R","Aston Martin One-77  (auto Tier 6, Marcus included)","Audi R8 V10  (auto Tier 6)","Chevrolet Corvette Z06 Carbon LE  (auto Tier 6)","Lamborghini Aventador  (auto Tier 6)","Lamborghini Murcielago SV  (auto Tier 6)","Lamborghini Sesto Elemento  (auto Tier 6)","Mazda RX-7 RZ  (auto Tier 6)","McLaren F1  (auto Tier 6)","McLaren MP4-12C  (auto Tier 6)","Nissan Fairlady 240ZG  (auto Tier 6)","Nissan GT-R SpecV  (auto Tier 6)","Nissan Skyline 2000GT-R  (auto Tier 6)","Nissan Skyline GT-R (R32)  (auto Tier 6)","Pagani Huayra  (auto Tier 6)","Pagani Zonda Cinque  (auto Tier 6)","Porsche 918 RSR  (auto Tier 6)","Ford Police Interceptor  (4 pursuit records)","Ford Police Interceptor  -  out of state","Dodge Charger SRT-8 Police","Lamborghini Gallardo Police","Nissan GT-R R35 Police","Porsche Cayenne Turbo Police","Porsche Cayenne Police  -  traffic","Porsche Cayenne Turbo  -  the mob","GMC Savana Cargo Van  -  the mob"}
+local donorNames = {"Bugatti Veyron 16.4 Super Sport","Hennessey Venom GT","Koenigsegg Agera R","Lamborghini Sesto Elemento","Lamborghini Aventador LP 700-4","Lamborghini Murcielago LP 670-4 SV","Pagani Huayra","Pagani Zonda Cinque","Porsche 918 RSR","McLaren F1","McLaren MP4-12C","Audi R8 V10","Nissan GT-R SpecV","Nissan Skyline GT-R (R32)","Nissan Skyline 2000GT-R","Nissan Fairlady 240ZG","Mazda RX-7 RZ","Chevrolet Corvette Z06 Carbon LE","Aston Martin One-77"}
 if getAddressSafe("ai_perf") == nil then
   autoAssemble([[
-alloc(ai_perf,$98)
+alloc(ai_perf,$120)
 registersymbol(ai_perf)
 ]])
   local a=getAddressSafe("ai_perf")
-  if a~=nil then for i=1,37 do writeInteger(a+(i-1)*4, carTbl[i][4]) end writeInteger(a+0x94, 0) end
+  if a~=nil then for i=1,69 do writeInteger(a+(i-1)*4, carTbl[i][4]) end writeInteger(a+0x114, 0) end
 end
-local cache={}; local lastSel={}; local ro=nil
+local cache={}; local lastSel={}; local orig={}; local ro=nil
 local function aobdec(s) local h=""; for b in s:gmatch("%S+") do h=b..h end; return tonumber(h,16) end
 local function scanFor(hx)
   local aob="02 00 00 31 56 4F CC 99 "..hx.." 56 4F CC 99"
@@ -1673,28 +1764,43 @@ end
 local function aiTick()
   local ok,err=pcall(function()
     local pb=getAddressSafe("ai_perf"); if pb==nil then return end
-    for i=1,37 do
+    for i=1,69 do
       local sel=readInteger(pb+(i-1)*4); local c=carTbl[i]; local di=c[4]
       if sel~=lastSel[i] then lastSel[i]=sel; if cache[i]==0 then cache[i]=nil end end
       if sel~=di or cache[i]~=nil then
         if cache[i]==nil then cache[i]=scanFor(c[1]) or 0 end
         if cache[i]~=0 then
-          local prf; if sel==di then prf=c[3] else prf=donor[sel] end
-          for n=0,c[2]-1 do writeInteger(cache[i]+n*0x80+0x60, aobdec(prf)) end
+          if orig[i]==nil then
+            orig[i]={}
+            for n=0,c[2]-1 do
+              local a=cache[i]+n*0x80+0x60
+              local v=nil; if TCR_orig~=nil then v=TCR_orig[a] end
+              if v==nil then v=readInteger(a) end
+              orig[i][n]=v
+            end
+          end
+          local prf; if sel==0 then prf="" elseif sel==di then prf=c[3] else prf=donor[sel] end
+          if prf=="" then
+            for n=0,c[2]-1 do writeInteger(cache[i]+n*0x80+0x60, orig[i][n]) end
+          elseif prf~=nil then
+            for n=0,c[2]-1 do writeInteger(cache[i]+n*0x80+0x60, aobdec(prf)) end
+          end
         end
       end
     end
     if ro==nil then ro=getAddressList().getMemoryRecordByID(97000) end
     if ro~=nil then
       ro.DropDownList.clear(); local lines={}
-      for i=1,37 do
+      for i=1,69 do
         local sel=readInteger(pb+(i-1)*4)
         if sel~=carTbl[i][4] then
           local st="scanning"; if cache[i]==0 then st="NOT FOUND" elseif cache[i]~=nil then st="OK" end
-          lines[#lines+1]=carNames[i].."  ->  "..donorNames[sel].."   ["..st.."]"
+          local dn; if sel==0 then dn="Default  (game original)" else dn=donorNames[sel] end
+          if dn==nil then dn="donor "..sel end
+          lines[#lines+1]=carNames[i].."  -&gt;  "..dn.."   ["..st.."]"
         end
       end
-      ro.DropDownList.add("0:"..#lines.." override(s) - expand to see")
+      ro.DropDownList.add("0:"..#lines.." changed, expand to read them")
       for k=1,#lines do ro.DropDownList.add(k..":"..lines[k]) end
     end
   end)
@@ -1713,7 +1819,7 @@ end</AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>1417</ID>
-          <Description>"Text Swap (en)"</Description>
+          <Description>"Text Swap (en)  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 aobscanmodule(text_change,Need For Speed The Run.exe,89 94 24 8C 09 00 00)
@@ -1910,7 +2016,7 @@ dealloc(newmem)
         </CheatEntry>
         <CheatEntry>
           <ID>862</ID>
-          <Description>"San Francisco garage"</Description>
+          <Description>"San Francisco garage  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
 getLuaEngine().cbShowOnPrint.Checked=false
@@ -1944,7 +2050,7 @@ timer_setEnabled(sf, false)
         </CheatEntry>
         <CheatEntry>
           <ID>863</ID>
-          <Description>"Las Vegas garage"</Description>
+          <Description>"Las Vegas garage  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
 getLuaEngine().cbShowOnPrint.Checked=false
@@ -1976,7 +2082,7 @@ timer_setEnabled(lv, false)
         </CheatEntry>
         <CheatEntry>
           <ID>864</ID>
-          <Description>"Chicago garage"</Description>
+          <Description>"Chicago garage  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
 getLuaEngine().cbShowOnPrint.Checked=false
@@ -2008,7 +2114,7 @@ timer_setEnabled(cc, false)
         </CheatEntry>
         <CheatEntry>
           <ID>865</ID>
-          <Description>"Uri garage"</Description>
+          <Description>"Uri garage  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
 getLuaEngine().cbShowOnPrint.Checked=false
@@ -2040,7 +2146,7 @@ timer_setEnabled(ur, false)
         </CheatEntry>
         <CheatEntry>
           <ID>799</ID>
-          <Description>"Remove car restriction"</Description>
+          <Description>"Remove car restriction  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 alloc(newmem,$30)
@@ -2076,7 +2182,7 @@ push 00
         </CheatEntry>
         <CheatEntry>
           <ID>1109</ID>
-          <Description>"Press Enter text"</Description>
+          <Description>"Press Enter text  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
 getLuaEngine().cbShowOnPrint.Checked=false
@@ -2138,7 +2244,7 @@ end
         </CheatEntry>
         <CheatEntry>
           <ID>1318</ID>
-          <Description>"Unlock all vehicles"</Description>
+          <Description>"Unlock all vehicles  (auto)"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 aobscanmodule(unlock_all_cars,Need For Speed The Run.exe,38 58 1B 74 11)
@@ -2187,7 +2293,7 @@ local ok,err = pcall(function()
   local scalar = al.getMemoryRecordByID(9852)
   if scalar ~= nil then
     scalar.Active = true
-    if getAddressSafe("ai_diffscalar") ~= nil then writeFloat("ai_diffscalar",0) end
+    if getAddressSafe("ai_diffscalar") ~= nil then writeFloat("ai_diffscalar",0.25) end
   end
   local draft = al.getMemoryRecordByID(9854)
   if draft ~= nil then draft.Active = true end
@@ -2211,7 +2317,7 @@ end)
     <CheatEntry>
       <ID>9100</ID>
       <Description>"RACE TIMES  (needs The Custom Run)   --  seconds granted at start and at each checkpoint (regardless of difficulty)"</Description>
-      <Options moManualExpandCollapse="1"/>
+      <Options moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -2247,7 +2353,7 @@ movss [eax+04],xmm0
         <CheatEntry>
           <ID>9110</ID>
           <Description>"Altamont Pass"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry><ID>9111</ID><Description>"Start"</Description><VariableType>Float</VariableType><Address>t_e1</Address></CheatEntry>
@@ -2260,7 +2366,7 @@ movss [eax+04],xmm0
         <CheatEntry>
           <ID>9120</ID>
           <Description>"Yosemite Approach"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry><ID>9121</ID><Description>"Start"</Description><VariableType>Float</VariableType><Address>t_e2</Address></CheatEntry>
@@ -2273,7 +2379,7 @@ movss [eax+04],xmm0
         <CheatEntry>
           <ID>9130</ID>
           <Description>"Desert Valley"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry><ID>9131</ID><Description>"Start"</Description><VariableType>Float</VariableType><Address>t_e3</Address></CheatEntry>
@@ -2285,7 +2391,7 @@ movss [eax+04],xmm0
         <CheatEntry>
           <ID>9140</ID>
           <Description>"Independence Pass"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry><ID>9141</ID><Description>"Start"</Description><VariableType>Float</VariableType><Address>t_e4</Address></CheatEntry>
@@ -2299,7 +2405,7 @@ movss [eax+04],xmm0
         <CheatEntry>
           <ID>9150</ID>
           <Description>"Buffalo Gap"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry><ID>9151</ID><Description>"Start"</Description><VariableType>Float</VariableType><Address>t_e5</Address></CheatEntry>
@@ -2312,7 +2418,7 @@ movss [eax+04],xmm0
         <CheatEntry>
           <ID>9160</ID>
           <Description>"Smoky Mountain"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry><ID>9161</ID><Description>"Start"</Description><VariableType>Float</VariableType><Address>t_e6</Address></CheatEntry>
@@ -2326,14 +2432,14 @@ movss [eax+04],xmm0
     </CheatEntry>
     <CheatEntry>
       <ID>9400</ID>
-      <Description>"GARAGE CARS  (needs The Custom Run)   --  pick Model + Skin per slot (set before loading)"</Description>
-      <Options moManualExpandCollapse="1"/>
+      <Description>"GARAGE CARS  (needs The Custom Run)   --  pick the Model and Skin of each slot, before the screen loads.  Body kits on the Veyron, Venom GT, Agera R and McLaren F1"</Description>
+      <Options moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>9410</ID>
           <Description>"Junkyard  (1 car)"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
@@ -2343,15 +2449,15 @@ movss [eax+04],xmm0
               <Address>slot_model+0</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2366,24 +2472,14 @@ movss [eax+04],xmm0
               <Description>"Car  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+0</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
           <ID>9420</ID>
           <Description>"San Francisco  (5 cars)"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
@@ -2393,15 +2489,15 @@ movss [eax+04],xmm0
               <Address>slot_model+4</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2416,17 +2512,7 @@ movss [eax+04],xmm0
               <Description>"Car 1  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+4</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94220</ID>
@@ -2435,15 +2521,15 @@ movss [eax+04],xmm0
               <Address>slot_model+8</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2458,17 +2544,7 @@ movss [eax+04],xmm0
               <Description>"Car 2  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+8</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94230</ID>
@@ -2477,15 +2553,15 @@ movss [eax+04],xmm0
               <Address>slot_model+C</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2500,17 +2576,7 @@ movss [eax+04],xmm0
               <Description>"Car 3  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+C</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94240</ID>
@@ -2519,15 +2585,15 @@ movss [eax+04],xmm0
               <Address>slot_model+10</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2542,17 +2608,7 @@ movss [eax+04],xmm0
               <Description>"Car 4  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+10</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94250</ID>
@@ -2561,15 +2617,15 @@ movss [eax+04],xmm0
               <Address>slot_model+14</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2584,24 +2640,14 @@ movss [eax+04],xmm0
               <Description>"Car 5  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+14</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
           <ID>9430</ID>
           <Description>"Las Vegas  (3 cars)"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
@@ -2611,15 +2657,15 @@ movss [eax+04],xmm0
               <Address>slot_model+18</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2634,17 +2680,7 @@ movss [eax+04],xmm0
               <Description>"Car 1  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+18</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94320</ID>
@@ -2653,15 +2689,15 @@ movss [eax+04],xmm0
               <Address>slot_model+1C</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2676,17 +2712,7 @@ movss [eax+04],xmm0
               <Description>"Car 2  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+1C</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94330</ID>
@@ -2695,15 +2721,15 @@ movss [eax+04],xmm0
               <Address>slot_model+20</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2718,24 +2744,14 @@ movss [eax+04],xmm0
               <Description>"Car 3  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+20</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
           <ID>9440</ID>
           <Description>"Chicago Downtown  (3 cars)"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
@@ -2745,15 +2761,15 @@ movss [eax+04],xmm0
               <Address>slot_model+24</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2768,17 +2784,7 @@ movss [eax+04],xmm0
               <Description>"Car 1  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+24</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94420</ID>
@@ -2787,15 +2793,15 @@ movss [eax+04],xmm0
               <Address>slot_model+28</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2810,17 +2816,7 @@ movss [eax+04],xmm0
               <Description>"Car 2  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+28</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94430</ID>
@@ -2829,15 +2825,15 @@ movss [eax+04],xmm0
               <Address>slot_model+2C</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2852,24 +2848,14 @@ movss [eax+04],xmm0
               <Description>"Car 3  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+2C</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
           <ID>9450</ID>
           <Description>"Uri Car Shop  (3 cars)"</Description>
-          <Options moManualExpandCollapse="1"/>
+          <Options moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
@@ -2879,15 +2865,15 @@ movss [eax+04],xmm0
               <Address>slot_model+30</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2902,17 +2888,7 @@ movss [eax+04],xmm0
               <Description>"Car 1  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+30</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94520</ID>
@@ -2921,15 +2897,15 @@ movss [eax+04],xmm0
               <Address>slot_model+34</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2944,17 +2920,7 @@ movss [eax+04],xmm0
               <Description>"Car 2  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+34</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
             <CheatEntry>
               <ID>94530</ID>
@@ -2963,15 +2929,15 @@ movss [eax+04],xmm0
               <Address>slot_model+38</Address>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Aston Martin One-77
 1:Audi R8 V10
-2:Bugatti Veyron 16.4 Super Sport
+2:Bugatti Veyron 16.4 Super Sport  [Style Pack 1]
 3:Chevrolet Corvette Z06 Carbon LE
-4:Hennessey Venom GT
-5:Koenigsegg Agera R
+4:Hennessey Venom GT  [Style Pack 1]
+5:Koenigsegg Agera R  [Style Pack 1]
 6:Lamborghini Aventador LP 700-4
 7:Lamborghini Murcielago LP 670-4 SV
 8:Lamborghini Sesto Elemento
 9:Mazda RX-7 RZ
-10:McLaren F1
+10:McLaren F1  [Style Pack 1, Aero Pack]
 11:McLaren MP4-12C
 13:Nissan Fairlady 240ZG
 14:Nissan GT-R SpecV
@@ -2986,17 +2952,7 @@ movss [eax+04],xmm0
               <Description>"Car 3  -  Skin"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>slot_var+38</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Stock 1
-1:Stock 2
-2:Stock 3
-3:Stock 4
-4:Stock 5
-5:Stock 6
-6:Stock 7
-7:Stock 8
-8:Run
-9:Rare 1
-10:NFS Edition</DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:(pick a model first)</DropDownList>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
@@ -3004,13 +2960,13 @@ movss [eax+04],xmm0
     </CheatEntry>
     <CheatEntry>
       <ID>9600</ID>
-      <Description>"GAS STATION CARS  (needs The Custom Run)   --  toggle which Tier 6 cars appear"</Description>
-      <Options moManualExpandCollapse="1"/>
+      <Description>"GAS STATION CARS  (needs The Custom Run)   --  MODE 1 offers your own garage set, MODE 0 the toggles below"</Description>
+      <Options moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>96000</ID>
-          <Description>"MODE  -  0=toggles below   1=current car's garage only"</Description>
+          <Description>"MODE   --  0 = the toggles below,   1 = your current car's garage only"</Description>
           <VariableType>4 Bytes</VariableType>
           <Address>gas_mode</Address>
           <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Off (use toggles below)
@@ -3196,313 +3152,33 @@ movss [eax+04],xmm0
     </CheatEntry>
     <CheatEntry>
       <ID>9800</ID>
-      <Description>"AI PERFORMANCE  (needs The Custom Run)   --  pick each opponent's Tier 6 performance donor (defaults = closest realistic match)"</Description>
-      <Options moManualExpandCollapse="1"/>
+      <Description>"AI PERFORMANCE  (needs The Custom Run)   --  pick the Tier 6 donor of every opponent in the game"</Description>
+      <Options moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>97000</ID>
-          <Description>"LIVE READOUT  -  active overrides (expand)"</Description>
+          <Description>"LIVE READOUT   --  what you have changed, expand to read it"</Description>
           <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+94</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="1"></DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97330</ID>
-          <Description>"Aston Martin V12 Vantage"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+80</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97010</ID>
-          <Description>"Audi Quattro 20V"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+0</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97020</ID>
-          <Description>"BMW 1 Series M Coupe"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+4</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97030</ID>
-          <Description>"BMW M3 Sport Evolution"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+8</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97040</ID>
-          <Description>"BMW M3 GTS (E92)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+C</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97050</ID>
-          <Description>"Chevrolet Camaro SS (1967)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+10</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97060</ID>
-          <Description>"Chevrolet Camaro ZL1"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+14</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97070</ID>
-          <Description>"Chevrolet El Camino SS"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+18</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97080</ID>
-          <Description>"Dodge Challenger R/T"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+1C</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97340</ID>
-          <Description>"Dodge Challenger SRT8"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+84</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97090</ID>
-          <Description>"Ford Focus RS"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+20</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
+          <Address>ai_perf+114</Address>
+          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="1" />
         </CheatEntry>
         <CheatEntry>
           <ID>97100</ID>
-          <Description>"Ford GT"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+24</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+          <Description>"RIVALS   --  five of the six named rivals. Marcus is under the Aston Martin One-77, on his own edition"</Description>
+          <Options moManualExpandCollapse="1" />
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>97101</ID>
+              <Description>"Nikki Blake  -  Nissan 370Z"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+0</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3518,17 +3194,17 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97110</ID>
-          <Description>"Ford Mustang Boss 302 (1969)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+28</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97102</ID>
+              <Description>"Mila Belova  -  Nissan 370Z"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+4</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3544,17 +3220,17 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97120</ID>
-          <Description>"Ford Mustang Boss 302"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+2C</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97103</ID>
+              <Description>"Calvin Garret  -  Mercedes SLS AMG"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+8</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3570,17 +3246,17 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97130</ID>
-          <Description>"Ford Mustang RTR"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+30</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97104</ID>
+              <Description>"Cesar DeLeon + 2 bodyguards  -  El Camino SS"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3596,17 +3272,17 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97140</ID>
-          <Description>"Ford Mustang RTR-X (1969) (Signature)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+34</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97105</ID>
+              <Description>"Eddie Cooke  -  Ford Mustang Boss 302"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+10</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3622,147 +3298,25 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97150</ID>
-          <Description>"Lamborghini Gallardo LP 550-2 Valentino Balboni"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+38</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97160</ID>
-          <Description>"Lamborghini Miura SV"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+3C</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97170</ID>
-          <Description>"Lotus Evora"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+40</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97180</ID>
-          <Description>"Lotus Exige Cup 260"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+44</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97190</ID>
-          <Description>"Mazda MX-5"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+48</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
           <ID>97200</ID>
-          <Description>"Mercedes-Benz SLS AMG"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+4C</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+          <Description>"OPPONENTS on a donor   --  cars with no usable Tier 6 of their own, sorted by name"</Description>
+          <Options moManualExpandCollapse="1" />
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>97201</ID>
+              <Description>"Aston Martin V12 Vantage"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+14</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3778,17 +3332,1013 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97202</ID>
+              <Description>"Audi Quattro 20V"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+18</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97203</ID>
+              <Description>"BMW 1 Series M Coupe"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+1C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97204</ID>
+              <Description>"BMW M3 GTS (E92)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+20</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97205</ID>
+              <Description>"BMW M3 Sport Evolution"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+24</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97206</ID>
+              <Description>"Chevrolet Camaro SS (1967)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+28</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97207</ID>
+              <Description>"Chevrolet Camaro ZL1"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+2C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97208</ID>
+              <Description>"Chevrolet El Camino SS"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+30</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97240</ID>
+              <Description>"Chevrolet El Camino SS  -  later opponents"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+34</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97241</ID>
+              <Description>"Chevrolet El Camino SS  -  spare rival records"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+38</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97209</ID>
+              <Description>"Dodge Challenger R/T"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+3C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97210</ID>
+              <Description>"Dodge Challenger SRT8"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+40</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97211</ID>
+              <Description>"Ford Focus RS"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+44</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97212</ID>
+              <Description>"Ford GT"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+48</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97213</ID>
+              <Description>"Ford Mustang Boss 302"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+4C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97214</ID>
+              <Description>"Ford Mustang Boss 302 (1969)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+50</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97215</ID>
+              <Description>"Ford Mustang RTR"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+54</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97216</ID>
+              <Description>"Ford Mustang RTR-X"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+58</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97217</ID>
+              <Description>"Lamborghini Gallardo LP 550-2 Valentino Balboni"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+5C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97218</ID>
+              <Description>"Lamborghini Miura SV"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+60</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97219</ID>
+              <Description>"Lotus Evora"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+64</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97220</ID>
+              <Description>"Lotus Exige Cup 260"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+68</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97221</ID>
+              <Description>"Mazda MX-5"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+6C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97222</ID>
+              <Description>"Mercedes-Benz SLS AMG  -  spare rival record"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+70</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97223</ID>
+              <Description>"Mitsubishi Lancer Evolution X"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+74</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97224</ID>
+              <Description>"Nissan 200SX (S14)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+78</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97225</ID>
+              <Description>"Nissan 370Z (Z34)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+7C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97226</ID>
+              <Description>"Pontiac Firebird Formula"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+80</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97227</ID>
+              <Description>"Porsche 911 Carrera S (991)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+84</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97228</ID>
+              <Description>"Porsche 911 GT2 (993)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+88</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97229</ID>
+              <Description>"Porsche 911 GT3 RS 4.0 (997)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+8C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97230</ID>
+              <Description>"Renault Sport Megane RS"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+90</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97231</ID>
+              <Description>"Shelby Cobra Daytona Coupe"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+94</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97232</ID>
+              <Description>"Shelby GT500 Super Snake"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+98</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97233</ID>
+              <Description>"Subaru Impreza WRX STI"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+9C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97234</ID>
+              <Description>"Toyota Corolla GTS (AE86)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+A0</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97235</ID>
+              <Description>"Toyota Supra"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+A4</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97236</ID>
+              <Description>"Volkswagen Golf GTI (Mk1)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+A8</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97237</ID>
+              <Description>"Volkswagen Scirocco R"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+AC</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>97350</ID>
-          <Description>"Mitsubishi Lancer Evolution X"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+88</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+          <ID>97400</ID>
+          <Description>"OPPONENTS already Tier 6   --  set automatically, change one only if you want to"</Description>
+          <Options moManualExpandCollapse="1" />
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>97401</ID>
+              <Description>"Aston Martin One-77  (auto Tier 6, Marcus included)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+B0</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3804,17 +4354,415 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97402</ID>
+              <Description>"Audi R8 V10  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+B4</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97403</ID>
+              <Description>"Chevrolet Corvette Z06 Carbon LE  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+B8</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97404</ID>
+              <Description>"Lamborghini Aventador  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+BC</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97405</ID>
+              <Description>"Lamborghini Murcielago SV  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+C0</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97406</ID>
+              <Description>"Lamborghini Sesto Elemento  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+C4</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97407</ID>
+              <Description>"Mazda RX-7 RZ  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+C8</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97408</ID>
+              <Description>"McLaren F1  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+CC</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97409</ID>
+              <Description>"McLaren MP4-12C  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+D0</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97410</ID>
+              <Description>"Nissan Fairlady 240ZG  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+D4</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97411</ID>
+              <Description>"Nissan GT-R SpecV  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+D8</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97412</ID>
+              <Description>"Nissan Skyline 2000GT-R  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+DC</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97413</ID>
+              <Description>"Nissan Skyline GT-R (R32)  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+E0</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97414</ID>
+              <Description>"Pagani Huayra  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+E4</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97415</ID>
+              <Description>"Pagani Zonda Cinque  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+E8</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97416</ID>
+              <Description>"Porsche 918 RSR  (auto Tier 6)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+EC</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>97210</ID>
-          <Description>"Nissan 370Z (Z34)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+50</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+          <ID>97600</ID>
+          <Description>"POLICE   --  untouched by default, pick a donor only if you want harder pursuits"</Description>
+          <Options moManualExpandCollapse="1" />
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>97601</ID>
+              <Description>"Ford Police Interceptor  (4 pursuit records)"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+F0</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3830,17 +4778,181 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97602</ID>
+              <Description>"Ford Police Interceptor  -  out of state"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+F4</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97603</ID>
+              <Description>"Dodge Charger SRT-8 Police"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+F8</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97604</ID>
+              <Description>"Lamborghini Gallardo Police"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+FC</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97605</ID>
+              <Description>"Nissan GT-R R35 Police"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+100</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97606</ID>
+              <Description>"Porsche Cayenne Turbo Police"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+104</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97607</ID>
+              <Description>"Porsche Cayenne Police  -  traffic"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+108</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
+12:Audi R8 V10
+1:Bugatti Veyron 16.4 Super Sport
+18:Chevrolet Corvette Z06 Carbon LE
+2:Hennessey Venom GT
+3:Koenigsegg Agera R
+5:Lamborghini Aventador LP 700-4
+6:Lamborghini Murcielago LP 670-4 SV
+4:Lamborghini Sesto Elemento
+17:Mazda RX-7 RZ
+10:McLaren F1
+11:McLaren MP4-12C
+16:Nissan Fairlady 240ZG
+13:Nissan GT-R SpecV
+15:Nissan Skyline 2000GT-R
+14:Nissan Skyline GT-R (R32)
+7:Pagani Huayra
+8:Pagani Zonda Cinque
+9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>97220</ID>
-          <Description>"Nissan 200SX (S14)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+54</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+          <ID>97700</ID>
+          <Description>"MOB   --  untouched by default"</Description>
+          <Options moManualExpandCollapse="1" />
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>97701</ID>
+              <Description>"Porsche Cayenne Turbo  -  the mob"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+10C</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3856,17 +4968,17 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97230</ID>
-          <Description>"Pontiac Firebird Formula"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+58</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
+            </CheatEntry>
+            <CheatEntry>
+              <ID>97702</ID>
+              <Description>"GMC Savana Cargo Van  -  the mob"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ai_perf+110</Address>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">0:Default  (game original)
+19:Aston Martin One-77
 12:Audi R8 V10
 1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
+18:Chevrolet Corvette Z06 Carbon LE
 2:Hennessey Venom GT
 3:Koenigsegg Agera R
 5:Lamborghini Aventador LP 700-4
@@ -3882,304 +4994,20 @@ movss [eax+04],xmm0
 7:Pagani Huayra
 8:Pagani Zonda Cinque
 9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97240</ID>
-          <Description>"Porsche 911 Carrera S (991)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+5C</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97360</ID>
-          <Description>"Porsche 911 GT2 (993)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+8C</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97250</ID>
-          <Description>"Porsche 911 GT3 RS 4.0 (997)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+60</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97260</ID>
-          <Description>"Renault Sport Megane RS"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+64</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97270</ID>
-          <Description>"Shelby Cobra Daytona Coupe"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+68</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97370</ID>
-          <Description>"Shelby GT500 Super Snake"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+90</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97280</ID>
-          <Description>"Subaru Impreza WRX STi (Hatchback)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+6C</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97290</ID>
-          <Description>"Toyota Corolla GTS (AE86)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+70</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97300</ID>
-          <Description>"Toyota Supra"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+74</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97310</ID>
-          <Description>"Volkswagen Golf GTI (Mk1)"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+78</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>97320</ID>
-          <Description>"Volkswagen Scirocco R"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>ai_perf+7C</Address>
-          <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0">20:Aston Martin One-77
-12:Audi R8 V10
-1:Bugatti Veyron 16.4 Super Sport
-18:Chevrolet Corvette Z06 Carbon LE (NFS)
-19:Chevrolet Corvette Z06 Carbon LE (Signature)
-2:Hennessey Venom GT
-3:Koenigsegg Agera R
-5:Lamborghini Aventador LP 700-4
-6:Lamborghini Murcielago LP 670-4 SV
-4:Lamborghini Sesto Elemento
-17:Mazda RX-7 RZ
-10:McLaren F1
-11:McLaren MP4-12C
-16:Nissan Fairlady 240ZG
-13:Nissan GT-R SpecV
-15:Nissan Skyline 2000GT-R
-14:Nissan Skyline GT-R (R32)
-7:Pagani Huayra
-8:Pagani Zonda Cinque
-9:Porsche 918 RSR</DropDownList>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>9850</ID>
-      <Description>"AI DIFFICULTY   --  set to Expert + scalar 0 by The Custom Run; change here (applies live)"</Description>
-      <Options moManualExpandCollapse="1"/>
+      <Description>"AI DIFFICULTY   --  the master sets Expert and 0.25, change it here, applies live"</Description>
+      <Options moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>9851</ID>
-          <Description>"AI Difficulty Level  (tick; overrides menu difficulty)"</Description>
+          <Description>"AI Difficulty Level   --  tick to override the menu difficulty"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 alloc(newmem,2048)
@@ -4224,7 +5052,7 @@ dealloc(newmem)</AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>9852</ID>
-          <Description>"AI Difficulty Scalar  (tick; experimental)"</Description>
+          <Description>"AI Difficulty Scalar   --  tick to set it, experimental"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 alloc(newmem,2048)
@@ -4258,7 +5086,7 @@ dealloc(newmem)</AssemblerScript>
           <CheatEntries>
             <CheatEntry>
               <ID>98521</ID>
-              <Description>"Scalar value  (default 1.0; higher = harder; The Custom Run sets 0)"</Description>
+              <Description>"Scalar value   --  1.0 is the game default, higher is harder, the master sets 0.25"</Description>
               <VariableType>Float</VariableType>
               <Address>ai_diffscalar</Address>
             </CheatEntry>
@@ -4268,8 +5096,8 @@ dealloc(newmem)</AssemblerScript>
     </CheatEntry>
     <CheatEntry>
       <ID>9860</ID>
-      <Description>"RACE RULES   --  everyone on track, player included; Disable Drafting ticked by The Custom Run (applies live)"</Description>
-      <Options moManualExpandCollapse="1"/>
+      <Description>"RACE RULES   --  applies to everyone on track, you included. The master ticks Disable Drafting"</Description>
+      <Options moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -4314,8 +5142,8 @@ movss [esi+000002B0],xmm0</AssemblerScript>
     </CheatEntry>
     <CheatEntry>
       <ID>9300</ID>
-      <Description>"NIGHT   --  night everywhere + free roam (OOB / wrong-way / rival off)"</Description>
-      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moManualExpandCollapse="1"/>
+      <Description>"NIGHT   --  night on every level and in free roam, with no out of bounds reset, no wrong way respawn and no rival getting away"</Description>
+      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
     <CheatEntry>
@@ -4399,7 +5227,7 @@ unregistersymbol(sequenceHook)
     <CheatEntry>
       <ID>9312</ID>
       <Description>"Night controller  (auto)"</Description>
-      <Options moHideChildren="1"/>
+      <Options moHideChildren="1" />
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>{$lua}
 getLuaEngine().cbShowOnPrint.Checked=false
@@ -4446,7 +5274,7 @@ lastNight = nil
     <CheatEntry>
       <ID>9000</ID>
       <Description>"Night injectors  (auto)"</Description>
-      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moHideChildren="1"/>
+      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moHideChildren="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -4784,7 +5612,7 @@ mov eax,[esp+04]
     </CheatEntry>
     <CheatEntry>
       <ID>9201</ID>
-      <Description>"Disable OOB reset"</Description>
+      <Description>"Disable out of bounds reset"</Description>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 007FAA8C:
@@ -4799,7 +5627,7 @@ fld dword ptr [ecx+68]
     </CheatEntry>
     <CheatEntry>
       <ID>9202</ID>
-      <Description>"Disable wrong-way respawn"</Description>
+      <Description>"Disable wrong way respawn"</Description>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 alloc(newmem,2048)
@@ -4888,8 +5716,8 @@ movss xmm0,[edi+54]
     </CheatEntry>
     <CheatEntry>
       <ID>9900</ID>
-      <Description>"CURRENT CAR (showroom)   --  1) open View Cars to read Model + Skin"</Description>
-      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moManualExpandCollapse="1"/>
+      <Description>"CURRENT CAR (showroom)   --  step 1, open View Cars to read the Model and Skin"</Description>
+      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -4900,7 +5728,7 @@ movss xmm0,[edi+54]
 getLuaEngine().cbShowOnPrint.Checked=false
 getLuaEngine().hide()
 [ENABLE]
-local skins = {["alf_8c_com_09"]={{28692514,"NFS Edition"}},["ast_one_77_10"]={{2723042599,"Rival 1"}},["ast_van_v12_10"]={{1416749643,"Rare 1"}},["aud_r8_v10_10"]={{1078212109,"Run"}},["bug_vey_ss_10"]={{1396925995,"Stock 1"},{233386615,"Stock 2"},{198885591,"Stock 3"},{2508479814,"Stock 4"},{38889236,"Stock 5"},{2998207530,"Stock 6"},{222257381,"Stock 7"},{3456734173,"Stock 8"}},["che_vet_cbn_10"]={{1289781367,"Rare 1"},{1732803059,"NFS Edition"}},["dod_cha_srt_08"]={{678390126,"Adsales 1"}},["she_mus_snk_12"]={{540039182,"Rare 1"}},["hen_ven_gt_11"]={{1889692556,"Stock 1"},{2875939421,"Stock 2"},{1843403582,"Stock 3"},{1559471646,"Stock 4"},{1293973268,"Stock 5"},{1435683144,"Stock 6"},{2573564796,"Stock 7"},{2334641747,"Stock 8"}},["koe_age_r_11"]={{938384918,"Stock 1"},{3882992039,"Stock 2"},{1371105745,"Stock 3"},{2626688083,"Stock 4"},{1231578851,"Stock 5"},{3884005823,"Stock 6"},{789750505,"Stock 7"},{4215073769,"Stock 8"}},["lam_ave_700_12"]={{2196261666,"Run"}},["lam_dia_sv_95"]={{2661219538,"NFS Edition"}},["lam_mur_sv_10"]={{2854099895,"Rare 1"}},["lam_ses_ele_11"]={{1021146513,"Rare 1"}},["mas_gt_str_12"]={{2233010987,"NFS Edition"}},["mas_mc_str_05"]={{877856617,"Stock 1"}},["maz_rx7_rz_98"]={{529645684,"NFS Edition"}},["mcl_f1_stk_94"]={{3082609147,"Stock 1"},{1842326981,"Stock 2"},{3597153073,"Stock 3"},{2027198581,"Stock 4"},{4061750909,"Stock 5"},{3284152259,"Stock 6"},{3971845986,"Stock 7"},{2188451802,"Stock 8"}},["mcl_mp4_12c_12"]={{3784919988,"NFS Edition"}},["mit_evo_x_08"]={{541096327,"Rare 1"}},["nis_240_zg_71"]={{4150176875,"Rare 1"}},["nis_gtr_stk_73"]={{1203603962,"Rare 1"}},["nis_gtr_v_10"]={{501327745,"Run"}},["nis_gtr_r32_91"]={{1279882972,"Rare 1"}},["pag_hua_stk_11"]={{671513072,"Run"},{2149624056,"Rare 1"}},["pag_zon_cin_10"]={{1785461374,"Rare 1"}},["pag_zon_r_09"]={{1606620635,"Stock 1"},{1129839707,"Stock 2"},{4142030595,"Stock 3"},{2209869415,"Stock 4"},{3410933518,"Stock 5"},{2013786111,"Stock 6"}},["por_993_gt2_96"]={{1591107591,"Adsales 1"}},["por_918_rsr_11"]={{2235038457,"Rare 1"},{893260034,"Run"}}}
+local skins = {["alf_8c_com_09"]={{28692514,"NFS Edition"}},["ast_one_77_10"]={{2723042599,"Rival 1"}},["ast_van_v12_10"]={{1416749643,"Rare 1"}},["aud_r8_v10_10"]={{1078212109,"Run"}},["bug_vey_ss_10"]={{1396925995,"Stock 1"},{233386615,"Stock 2"},{198885591,"Stock 3"},{2508479814,"Stock 4"},{38889236,"Stock 5"},{2998207530,"Stock 6"},{222257381,"Stock 7"},{3456734173,"Stock 8"},{397414533,"Style Pack 1 - 1"},{13600042,"Style Pack 1 - 2"},{1173801304,"Style Pack 1 - 3"},{2683073109,"Style Pack 1 - 4"},{3414920866,"Style Pack 1 - 5"},{4061025962,"Style Pack 1 - 6"},{4269471868,"Style Pack 1 - 7"},{1201919218,"Style Pack 1 - 8"}},["che_vet_cbn_10"]={{1289781367,"Rare 1"},{1732803059,"NFS Edition"}},["dod_cha_srt_08"]={{678390126,"Adsales 1"}},["she_mus_snk_12"]={{540039182,"Rare 1"}},["hen_ven_gt_11"]={{1889692556,"Stock 1"},{2875939421,"Stock 2"},{1843403582,"Stock 3"},{1559471646,"Stock 4"},{1293973268,"Stock 5"},{1435683144,"Stock 6"},{2573564796,"Stock 7"},{2334641747,"Stock 8"},{1532349533,"Style Pack 1 - 1"},{1612734426,"Style Pack 1 - 2"},{1350165957,"Style Pack 1 - 3"},{3838522613,"Style Pack 1 - 4"},{3126269201,"Style Pack 1 - 5"},{2902535361,"Style Pack 1 - 6"},{42442522,"Style Pack 1 - 7"},{284782573,"Style Pack 1 - 8"}},["koe_age_r_11"]={{938384918,"Stock 1"},{3882992039,"Stock 2"},{1371105745,"Stock 3"},{2626688083,"Stock 4"},{1231578851,"Stock 5"},{3884005823,"Stock 6"},{789750505,"Stock 7"},{4215073769,"Stock 8"},{450562262,"Style Pack 1 - 1"},{3174728285,"Style Pack 1 - 2"},{3125779387,"Style Pack 1 - 3"},{3260662067,"Style Pack 1 - 4"},{132303528,"Style Pack 1 - 5"},{3392822886,"Style Pack 1 - 6"},{4175699004,"Style Pack 1 - 7"},{1147481775,"Style Pack 1 - 8"}},["lam_ave_700_12"]={{2196261666,"Run"}},["lam_dia_sv_95"]={{2661219538,"NFS Edition"}},["lam_mur_sv_10"]={{2854099895,"Rare 1"}},["lam_ses_ele_11"]={{1021146513,"Rare 1"}},["mas_gt_str_12"]={{2233010987,"NFS Edition"}},["mas_mc_str_05"]={{877856617,"Stock 1"}},["maz_rx7_rz_98"]={{529645684,"NFS Edition"}},["mcl_f1_stk_94"]={{3082609147,"Stock 1"},{1842326981,"Stock 2"},{3597153073,"Stock 3"},{2027198581,"Stock 4"},{4061750909,"Stock 5"},{3284152259,"Stock 6"},{3971845986,"Stock 7"},{2188451802,"Stock 8"},{2188732611,"Style Pack 1 - 1"},{8847892,"Style Pack 1 - 2"},{2546659436,"Style Pack 1 - 3"},{4201908254,"Style Pack 1 - 4"},{3309128826,"Style Pack 1 - 5"},{3763200407,"Style Pack 1 - 6"},{734242523,"Style Pack 1 - 7"},{4147231431,"Style Pack 1 - 8"},{3451952857,"Aero Pack - 1"},{2727696005,"Aero Pack - 2"},{2569286113,"Aero Pack - 3"},{179413785,"Aero Pack - 4"},{2797745784,"Aero Pack - 5"},{4269482447,"Aero Pack - 6"},{1346627002,"Aero Pack - 7"},{3904972435,"Aero Pack - 8"}},["mcl_mp4_12c_12"]={{3784919988,"NFS Edition"}},["mit_evo_x_08"]={{541096327,"Rare 1"}},["nis_240_zg_71"]={{4150176875,"Rare 1"}},["nis_gtr_stk_73"]={{1203603962,"Rare 1"}},["nis_gtr_v_10"]={{501327745,"Run"}},["nis_gtr_r32_91"]={{1279882972,"Rare 1"}},["pag_hua_stk_11"]={{671513072,"Run"},{2149624056,"Rare 1"}},["pag_zon_cin_10"]={{1785461374,"Rare 1"}},["pag_zon_r_09"]={{1606620635,"Stock 1"},{1129839707,"Stock 2"},{4142030595,"Stock 3"},{2209869415,"Stock 4"},{3410933518,"Stock 5"},{2013786111,"Stock 6"}},["por_993_gt2_96"]={{1591107591,"Adsales 1"}},["por_918_rsr_11"]={{2235038457,"Rare 1"},{893260034,"Run"}}}
 local carname = {["alf_8c_com_09"]="Alfa Romeo 8C Competizione",["ast_one_77_10"]="Aston Martin One-77",["ast_van_v12_10"]="Aston Martin V12 Vantage",["aud_r8_v10_10"]="Audi R8 V10",["bug_vey_ss_10"]="Bugatti Veyron 16.4 Super Sport",["che_vet_cbn_10"]="Chevrolet Corvette Z06 Carbon LE",["dod_cha_srt_08"]="Dodge Challenger R/T",["she_mus_snk_12"]="Ford Shelby GT500 Super Snake",["hen_ven_gt_11"]="Hennessey Venom GT",["koe_age_r_11"]="Koenigsegg Agera R",["lam_ave_700_12"]="Lamborghini Aventador LP 700-4",["lam_dia_sv_95"]="Lamborghini Diablo SV",["lam_mur_sv_10"]="Lamborghini Murcielago LP 670-4 SV",["lam_ses_ele_11"]="Lamborghini Sesto Elemento",["mas_gt_str_12"]="Maserati GranTurismo MC Stradale",["mas_mc_str_05"]="Maserati MC12",["maz_rx7_rz_98"]="Mazda RX-7 RZ",["mcl_f1_stk_94"]="McLaren F1",["mcl_mp4_12c_12"]="McLaren MP4-12C",["mit_evo_x_08"]="Mitsubishi Lancer Evolution X",["nis_240_zg_71"]="Nissan Fairlady 240ZG",["nis_gtr_stk_73"]="Nissan Skyline 2000GT-R",["nis_gtr_v_10"]="Nissan GT-R SpecV",["nis_gtr_r32_91"]="Nissan Skyline GT-R (R32)",["pag_hua_stk_11"]="Pagani Huayra",["pag_zon_cin_10"]="Pagani Zonda Cinque",["pag_zon_r_09"]="Pagani Zonda R",["por_993_gt2_96"]="Porsche 911 GT2",["por_918_rsr_11"]="Porsche 918 RSR"}
 local rev = {}
 for cc,L in pairs(skins) do for k=1,#L do rev[L[k][1]] = {cc, L[k][2]} end end
@@ -4938,7 +5766,7 @@ if showroomTimer ~= nil then timer_setEnabled(showroomTimer,false); showroomTime
               <ShowAsHex>1</ShowAsHex>
               <VariableType>4 Bytes</VariableType>
               <Address>FFC54DBC</Address>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="1"></DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="1" />
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
@@ -4946,8 +5774,8 @@ if showroomTimer ~= nil then timer_setEnabled(showroomTimer,false); showroomTime
     </CheatEntry>
     <CheatEntry>
       <ID>9700</ID>
-      <Description>"CURRENT CAR SKIN   --  2) pick a variant for that car (applies on restart)"</Description>
-      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moManualExpandCollapse="1"/>
+      <Description>"CURRENT CAR SKIN   --  step 2, pick a variant for that car, applies on restart"</Description>
+      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -4958,7 +5786,7 @@ if showroomTimer ~= nil then timer_setEnabled(showroomTimer,false); showroomTime
 getLuaEngine().cbShowOnPrint.Checked=false
 getLuaEngine().hide()
 [ENABLE]
-local skins = {["alf_8c_com_09"]={{28692514,"NFS Edition"}},["ast_one_77_10"]={{2723042599,"Rival 1"}},["ast_van_v12_10"]={{1416749643,"Rare 1"}},["aud_r8_v10_10"]={{1078212109,"Run"}},["bug_vey_ss_10"]={{1396925995,"Stock 1"},{233386615,"Stock 2"},{198885591,"Stock 3"},{2508479814,"Stock 4"},{38889236,"Stock 5"},{2998207530,"Stock 6"},{222257381,"Stock 7"},{3456734173,"Stock 8"}},["che_vet_cbn_10"]={{1289781367,"Rare 1"},{1732803059,"NFS Edition"}},["dod_cha_srt_08"]={{678390126,"Adsales 1"}},["she_mus_snk_12"]={{540039182,"Rare 1"}},["hen_ven_gt_11"]={{1889692556,"Stock 1"},{2875939421,"Stock 2"},{1843403582,"Stock 3"},{1559471646,"Stock 4"},{1293973268,"Stock 5"},{1435683144,"Stock 6"},{2573564796,"Stock 7"},{2334641747,"Stock 8"}},["koe_age_r_11"]={{938384918,"Stock 1"},{3882992039,"Stock 2"},{1371105745,"Stock 3"},{2626688083,"Stock 4"},{1231578851,"Stock 5"},{3884005823,"Stock 6"},{789750505,"Stock 7"},{4215073769,"Stock 8"}},["lam_ave_700_12"]={{2196261666,"Run"}},["lam_dia_sv_95"]={{2661219538,"NFS Edition"}},["lam_mur_sv_10"]={{2854099895,"Rare 1"}},["lam_ses_ele_11"]={{1021146513,"Rare 1"}},["mas_gt_str_12"]={{2233010987,"NFS Edition"}},["mas_mc_str_05"]={{877856617,"Stock 1"}},["maz_rx7_rz_98"]={{529645684,"NFS Edition"}},["mcl_f1_stk_94"]={{3082609147,"Stock 1"},{1842326981,"Stock 2"},{3597153073,"Stock 3"},{2027198581,"Stock 4"},{4061750909,"Stock 5"},{3284152259,"Stock 6"},{3971845986,"Stock 7"},{2188451802,"Stock 8"}},["mcl_mp4_12c_12"]={{3784919988,"NFS Edition"}},["mit_evo_x_08"]={{541096327,"Rare 1"}},["nis_240_zg_71"]={{4150176875,"Rare 1"}},["nis_gtr_stk_73"]={{1203603962,"Rare 1"}},["nis_gtr_v_10"]={{501327745,"Run"}},["nis_gtr_r32_91"]={{1279882972,"Rare 1"}},["pag_hua_stk_11"]={{671513072,"Run"},{2149624056,"Rare 1"}},["pag_zon_cin_10"]={{1785461374,"Rare 1"}},["pag_zon_r_09"]={{1606620635,"Stock 1"},{1129839707,"Stock 2"},{4142030595,"Stock 3"},{2209869415,"Stock 4"},{3410933518,"Stock 5"},{2013786111,"Stock 6"}},["por_993_gt2_96"]={{1591107591,"Adsales 1"}},["por_918_rsr_11"]={{2235038457,"Rare 1"},{893260034,"Run"}}}
+local skins = {["alf_8c_com_09"]={{28692514,"NFS Edition"}},["ast_one_77_10"]={{2723042599,"Rival 1"}},["ast_van_v12_10"]={{1416749643,"Rare 1"}},["aud_r8_v10_10"]={{1078212109,"Run"}},["bug_vey_ss_10"]={{1396925995,"Stock 1"},{233386615,"Stock 2"},{198885591,"Stock 3"},{2508479814,"Stock 4"},{38889236,"Stock 5"},{2998207530,"Stock 6"},{222257381,"Stock 7"},{3456734173,"Stock 8"},{397414533,"Style Pack 1 - 1"},{13600042,"Style Pack 1 - 2"},{1173801304,"Style Pack 1 - 3"},{2683073109,"Style Pack 1 - 4"},{3414920866,"Style Pack 1 - 5"},{4061025962,"Style Pack 1 - 6"},{4269471868,"Style Pack 1 - 7"},{1201919218,"Style Pack 1 - 8"}},["che_vet_cbn_10"]={{1289781367,"Rare 1"},{1732803059,"NFS Edition"}},["dod_cha_srt_08"]={{678390126,"Adsales 1"}},["she_mus_snk_12"]={{540039182,"Rare 1"}},["hen_ven_gt_11"]={{1889692556,"Stock 1"},{2875939421,"Stock 2"},{1843403582,"Stock 3"},{1559471646,"Stock 4"},{1293973268,"Stock 5"},{1435683144,"Stock 6"},{2573564796,"Stock 7"},{2334641747,"Stock 8"},{1532349533,"Style Pack 1 - 1"},{1612734426,"Style Pack 1 - 2"},{1350165957,"Style Pack 1 - 3"},{3838522613,"Style Pack 1 - 4"},{3126269201,"Style Pack 1 - 5"},{2902535361,"Style Pack 1 - 6"},{42442522,"Style Pack 1 - 7"},{284782573,"Style Pack 1 - 8"}},["koe_age_r_11"]={{938384918,"Stock 1"},{3882992039,"Stock 2"},{1371105745,"Stock 3"},{2626688083,"Stock 4"},{1231578851,"Stock 5"},{3884005823,"Stock 6"},{789750505,"Stock 7"},{4215073769,"Stock 8"},{450562262,"Style Pack 1 - 1"},{3174728285,"Style Pack 1 - 2"},{3125779387,"Style Pack 1 - 3"},{3260662067,"Style Pack 1 - 4"},{132303528,"Style Pack 1 - 5"},{3392822886,"Style Pack 1 - 6"},{4175699004,"Style Pack 1 - 7"},{1147481775,"Style Pack 1 - 8"}},["lam_ave_700_12"]={{2196261666,"Run"}},["lam_dia_sv_95"]={{2661219538,"NFS Edition"}},["lam_mur_sv_10"]={{2854099895,"Rare 1"}},["lam_ses_ele_11"]={{1021146513,"Rare 1"}},["mas_gt_str_12"]={{2233010987,"NFS Edition"}},["mas_mc_str_05"]={{877856617,"Stock 1"}},["maz_rx7_rz_98"]={{529645684,"NFS Edition"}},["mcl_f1_stk_94"]={{3082609147,"Stock 1"},{1842326981,"Stock 2"},{3597153073,"Stock 3"},{2027198581,"Stock 4"},{4061750909,"Stock 5"},{3284152259,"Stock 6"},{3971845986,"Stock 7"},{2188451802,"Stock 8"},{2188732611,"Style Pack 1 - 1"},{8847892,"Style Pack 1 - 2"},{2546659436,"Style Pack 1 - 3"},{4201908254,"Style Pack 1 - 4"},{3309128826,"Style Pack 1 - 5"},{3763200407,"Style Pack 1 - 6"},{734242523,"Style Pack 1 - 7"},{4147231431,"Style Pack 1 - 8"},{3451952857,"Aero Pack - 1"},{2727696005,"Aero Pack - 2"},{2569286113,"Aero Pack - 3"},{179413785,"Aero Pack - 4"},{2797745784,"Aero Pack - 5"},{4269482447,"Aero Pack - 6"},{1346627002,"Aero Pack - 7"},{3904972435,"Aero Pack - 8"}},["mcl_mp4_12c_12"]={{3784919988,"NFS Edition"}},["mit_evo_x_08"]={{541096327,"Rare 1"}},["nis_240_zg_71"]={{4150176875,"Rare 1"}},["nis_gtr_stk_73"]={{1203603962,"Rare 1"}},["nis_gtr_v_10"]={{501327745,"Run"}},["nis_gtr_r32_91"]={{1279882972,"Rare 1"}},["pag_hua_stk_11"]={{671513072,"Run"},{2149624056,"Rare 1"}},["pag_zon_cin_10"]={{1785461374,"Rare 1"}},["pag_zon_r_09"]={{1606620635,"Stock 1"},{1129839707,"Stock 2"},{4142030595,"Stock 3"},{2209869415,"Stock 4"},{3410933518,"Stock 5"},{2013786111,"Stock 6"}},["por_993_gt2_96"]={{1591107591,"Adsales 1"}},["por_918_rsr_11"]={{2235038457,"Rare 1"},{893260034,"Run"}}}
 local carname = {["alf_8c_com_09"]="Alfa Romeo 8C Competizione",["ast_one_77_10"]="Aston Martin One-77",["ast_van_v12_10"]="Aston Martin V12 Vantage",["aud_r8_v10_10"]="Audi R8 V10",["bug_vey_ss_10"]="Bugatti Veyron 16.4 Super Sport",["che_vet_cbn_10"]="Chevrolet Corvette Z06 Carbon LE",["dod_cha_srt_08"]="Dodge Challenger R/T",["she_mus_snk_12"]="Ford Shelby GT500 Super Snake",["hen_ven_gt_11"]="Hennessey Venom GT",["koe_age_r_11"]="Koenigsegg Agera R",["lam_ave_700_12"]="Lamborghini Aventador LP 700-4",["lam_dia_sv_95"]="Lamborghini Diablo SV",["lam_mur_sv_10"]="Lamborghini Murcielago LP 670-4 SV",["lam_ses_ele_11"]="Lamborghini Sesto Elemento",["mas_gt_str_12"]="Maserati GranTurismo MC Stradale",["mas_mc_str_05"]="Maserati MC12",["maz_rx7_rz_98"]="Mazda RX-7 RZ",["mcl_f1_stk_94"]="McLaren F1",["mcl_mp4_12c_12"]="McLaren MP4-12C",["mit_evo_x_08"]="Mitsubishi Lancer Evolution X",["nis_240_zg_71"]="Nissan Fairlady 240ZG",["nis_gtr_stk_73"]="Nissan Skyline 2000GT-R",["nis_gtr_v_10"]="Nissan GT-R SpecV",["nis_gtr_r32_91"]="Nissan Skyline GT-R (R32)",["pag_hua_stk_11"]="Pagani Huayra",["pag_zon_cin_10"]="Pagani Zonda Cinque",["pag_zon_r_09"]="Pagani Zonda R",["por_993_gt2_96"]="Porsche 911 GT2",["por_918_rsr_11"]="Porsche 918 RSR"}
 local rev = {}
 for cc,L in pairs(skins) do for k=1,#L do rev[L[k][1]] = cc end end
@@ -5001,12 +5829,12 @@ if curSkinTimer ~= nil then timer_setEnabled(curSkinTimer,false); curSkinTimer=n
               <Offsets>
                 <Offset>3C8</Offset>
               </Offsets>
-              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0"></DropDownList>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1" ReadOnly="0" />
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
   </CheatEntries>
-  <UserdefinedSymbols/>
+  <UserdefinedSymbols />
 </CheatTable>
